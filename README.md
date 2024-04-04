@@ -13,6 +13,8 @@ This Terraform project automates the deployment of a scalable website's infrastr
 
 **Compute Resources**:
 - **EC2 Instances**: EC2 instances are provisioned in each public subnet, each running an Apache2 web server to serve web content. These instances form the web tier of the infrastructure.
+
+**Storage**:
 - **S3 Bucket**: An S3 bucket may be optionally configured for storing static website assets, providing cost-effective and scalable storage for web content.
 
 **Security Configuration**:
