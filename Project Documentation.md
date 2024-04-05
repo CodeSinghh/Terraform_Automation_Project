@@ -24,5 +24,7 @@ Before proceeding with the setup, ensure you have the following prerequisites:
 ![image](https://github.com/CodeSinghh/Terraform_Automation_Project/assets/116664961/1ed1dea5-c571-4487-9d4f-6e748f309c07)
 
 
-## Let’s start by discussing the providers.tf file, which tells us which cloud provider we're using.
+- ### **And then we'll discuss the providers.tf file, which indicates the cloud provider we're using. You can verify this in the repository, where a file named provider.tf is uploaded**
+
+- ### **After that, we created the main.tf file. This file serves as the main configuration file for defining the infrastructure components. You can find it in this repository under the name main.tf**
 
