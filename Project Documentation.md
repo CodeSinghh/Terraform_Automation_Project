@@ -43,7 +43,7 @@ Before proceeding with the setup, ensure you have the following prerequisites:
 - **EC2 Instances**: EC2 instances are provisioned in each public subnet, each running an Apache2 web server to serve web content. These instances form the web tier of the infrastructure.
 
 - *For EC2 releated Terraform files, please navigate to the EC2 folder where you can find all the necessary folders.*
-- *In EC2 folder you will find name userdata and userdata1 and they are bash script used as user data for initializing an Amazon EC2 instance. It performs the following actions:*
+- *In the EC2 folder, you will find two bash scripts named `userdata` and `userdata1`. These scripts are used as user data for initializing an Amazon EC2 instance. They perform the following actions:*
 
 1. `yum update -y`: Updates the package manager to ensure the system is up-to-date.
 2. `yum install -y httpd`: Installs the Apache HTTP server (httpd) on the instance.
