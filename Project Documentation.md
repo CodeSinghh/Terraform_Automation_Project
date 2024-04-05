@@ -37,7 +37,7 @@ Before proceeding with the setup, ensure you have the following prerequisites:
 - **Internet Gateway**: An internet gateway is attached to the VPC to enable outbound internet access for the public subnets.
 - **Load Balancer**: A load balancer is deployed to distribute incoming traffic among multiple EC2 instances for improved reliability and scalability.
 
-- *For network-related Terraform files, please navigate to the VPC folder. For load balancer files, please head to the Load Balancer folder, where you can find all the necessary folders.*
+- *For network-related Terraform files, please navigate to the VPC folder. For load balancer files, please head to the Load Balancer folder, where you can find all the necessary files.*
 
 **Compute Resources**:
 - **EC2 Instances**: EC2 instances are provisioned in each public subnet, each running an Apache2 web server to serve web content. These instances form the web tier of the infrastructure.
