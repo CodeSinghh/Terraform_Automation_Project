@@ -28,3 +28,22 @@ Before proceeding with the setup, ensure you have the following prerequisites:
 
 - ### **After that, we created the main.tf file. This file serves as the main configuration file for defining the infrastructure components. You can find it in this repository under the name main.tf**
 
+- As we've created these important files, Now this are the services that we have to create
+
+**Network Setup**:
+- **Custom VPC**: A Virtual Private Cloud (VPC) is created to isolate the infrastructure logically and provide network control.
+- **Public Subnets**: Two public subnets are defined within the VPC to host the web servers and provide connectivity to the internet.
+- **Public Route Table**: A route table is configured to direct traffic from the public subnets to the internet gateway.
+- **Internet Gateway**: An internet gateway is attached to the VPC to enable outbound internet access for the public subnets.
+- **Load Balancer**: A load balancer is deployed to distribute incoming traffic among multiple EC2 instances for improved reliability and scalability.
+
+- *For network-related Terraform files, please navigate to the VPC folder. For load balancer files, please head to the Load Balancer folder, where you can find all the necessary folders.*
+
+**Compute Resources**:
+- **EC2 Instances**: EC2 instances are provisioned in each public subnet, each running an Apache2 web server to serve web content. These instances form the web tier of the infrastructure.
+
+- *For EC2 releated Terraform files, please navigate to the EC2 folder where you can find all the necessary folders.*
+
+**Storage**:
+- **S3 Bucket**: An S3 bucket may be optionally configured for storing static website assets, providing cost-effective and scalable storage for web content.
+- *For S3 releated Terraform files, please navigate to the s3 folder where you can find all the necessary folders.*
