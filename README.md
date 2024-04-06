@@ -1,4 +1,4 @@
-**Title**: Terraform Infrastructure Deployment for Scalable Web Hosting on AWS
+# Secure Scalable AWS Web Deployment with Terraform Automation
 
 **Description**:
 
